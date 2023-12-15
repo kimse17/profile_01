@@ -2,3 +2,34 @@
 padding: 4rem;
 font-size: 20pt;}
 
+.about_content{display: flex;
+justify-content: space-between;
+gap: 1rem;
+margin: 2.5rem 0;}
+
+.max-container{max-width: 1200px;
+margin: 0 auto;
+}
+
+.about_box{width: 30%;
+background: #050a13;
+padding: 2rem 1rem;
+
+border-radius: 1rem;
+cursor: default;
+box-shadow: 10px 13px 20px -4px rgba(120,120,120,0.75);
+}
+
+.about_title{color:rgb(255, 255, 255);
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 1rem;}
+.about_text{color :rgb(255, 255, 255);}
+
+.about_box:hover .about_icon{transform: rotate(-15deg) scale(1.2);}
+.about_icon{font-size: 4rem;
+margin: 1rem 0;
+color:rgb(115, 139, 255) ;
+transition: all 300ms;}
+
+
