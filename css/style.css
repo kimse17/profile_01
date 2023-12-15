@@ -32,7 +32,7 @@ height: 34px;
 gap: 4px;}
 
 .header_menu > li {display: block;
-    padding: 16px;
+    padding: 15px;
     border-bottom: 1px solid transparent;}
     
     .header_menu> li:hover{border-bottom: 1px solid rgb(115, 139, 255);}
