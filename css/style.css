@@ -48,22 +48,21 @@ a {
 
 .header_menu>li {
     display: block;
-    padding: 15px;
+    padding: 10px;
     border-bottom: 1px solid transparent;
 }
 
-.header_menu>li:hover {
+/*.header_menu>li:hover {
     border-bottom: 1px solid rgb(115, 139, 255);
+    
+}*/
+.header_menu>li:hover {
+    border: 1px solid rgb(115, 139, 255);
+    border-radius:20px;
     
 }
 
-.header_menu_item.active {
-    border: 1px solid rgb(115, 139, 255);
-    border-radius: 4px;
-    padding: 5px;
-}
 
 .hamburger {
     display: none;
 }
-
