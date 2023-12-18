@@ -25,9 +25,14 @@
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/work.css">
     <link rel="stylesheet" href="./css/testimonial.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
@@ -76,11 +81,12 @@
 
         <nav class="header_nav">
             <ul class="header_menu">
-                <li><a class="header_menu_item active" href="#HOME">HOME</a></li>
-                <li><a href="#ABOUT">ABOUT</a></li>
-                <li><a href="#SKILLS">SKILLS</a></li>
-                <li><a href="#TESTIMONIAL"> TESTIMONIAL</a></li>
-                <li><a href="#CONTACT">CONTACT</a></li>
+                <li><a class="header_menu_item active" href="#home">HOME</a></li>
+                <li><a class="header_menu_item active01" href="#about">ABOUT</a></li>
+                <li><a  href="#skills">SKILLS</a></li>
+                <li><a  href="#work">WORKS</a></li>
+                <li><a href="#testimonal"> TESTIMONIAL</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -115,7 +121,9 @@
 
 
         <section id="about" class="section_style max-container">
+
             <h2>ABOUT ME</h2>
+
             <p>
                 소개 글
             </p>
@@ -145,6 +153,7 @@
                 </li>
             </ul>
         </section>
+
         <!--skill 시작-->
         <section id="skills" class="section_style">
             <h2> MY SKILLS</h2>
@@ -198,9 +207,9 @@
                     </ul>
                 </section>
                 <section class="skills_tools" style="
-                border-radius: 50px;
-                border: 2px solid rgb(115, 139, 255); margin-left: 10%;
-                margin-bottom: 5%;">
+                  border-radius: 50px;
+                  border: 2px solid rgb(115, 139, 255); margin-left: 10%;
+                  margin-bottom: 5%;">
                     <h3 class="skills_title">Design</h3>
                     <ul style="margin-top: 5%;">
                         <li class="bar_text_02">PHOTOSHOP</liF>
@@ -230,9 +239,9 @@
             <H2 class="title">MY WORK</H2>
             <P class="description">Projects</P>
             <ul class="category">
-                <li> <button class="category_button category_selected"> ALL<span class="work_count">8</span></button>
+                <li> <button class="category_button " > ALL<span class="work_count">8</span></button>
                 </li>
-                <li> <button class="category_button">FRONT-END<span class="work_count">3</span></button></li>
+                <li> <button class="category_button ">FRONT-END<span class="work_count">3</span></button></li>
                 <li> <button class="category_button">DESIGN<span class="work_count">3</span></button></li>
                 <li> <button class="category_button">MOBILE<span class="work_count">2</span></button></li>
             </ul>
@@ -240,13 +249,14 @@
             <ul class="project_all">
                 <li class="Project">
                     <a href="#" target="_blank">
-                        <img class="work_img" src="images/img_01.jpg">
+                        <img class="work_img" src="images/img_01.jpg" >
                         <div class="Project_text">
                             <h3 class="Project_title">Project #01</h3>
                             <p>MY WORK</p>
                         </div>
                     </a>
                 </li>
+
                 <li class="Project">
                     <a href="#" target="_blank">
                         <img class="work_img" src="images/img_02.jpg">
@@ -276,7 +286,7 @@
                 </li>
                 <li class="Project">
                     <a href="#" target="_blank">
-                        <img src="images/img_06.png">
+                        <img  class="work_img" src="images/img_01.jpg">
                         <div class="Project_text">
                             <h3 class="Project_title">Project #06</h3>
                             <p>MY WORK</p>
@@ -285,7 +295,7 @@
                 </li>
                 <li class="Project">
                     <a href="#" target="_blank">
-                        <img src="images/img_06.png">
+                        <img  class="work_img" src="images/img_02.jpg">
                         <div class="Project_text">
                             <h3 class="Project_title">Project #06</h3>
                             <p>MY WORK</p>
@@ -294,7 +304,7 @@
                 </li>
                 <li class="Project">
                     <a href="#" target="_blank">
-                        <img src="images/img01.png">
+                        <img  class="work_img" src="images/img_03.jpg">
                         <div class="Project_text">
                             <h3 class="Project_title">Project #07</h3>
                             <p>MY WORK</p>
@@ -303,7 +313,7 @@
                 </li>
                 <li class="Project">
                     <a href="#" target="_blank">
-                        <img src="images/img02.png">
+                        <img class="work_img" src="images/img_04.jpg">
                         <div class="Project_text">
                             <h3 class="Project_title">Project #08</h3>
                             <p>MY WORK</p>
@@ -314,7 +324,7 @@
         </section>
 
         <!--testimonials 시작-->
-        <section id="testimonial" class="section_style">
+        <section id="testimonal" class="section_style">
             <H2 class="title"> TESTIMONIAL</H2>
             <P class="description">
                 SEE WHAT THEY SAY ABOUT ME
@@ -369,26 +379,38 @@
         </section>
         <!--top버튼 시작-->
         <aside>
-            TOP버튼
+            <a class="arrow_up" href="#home" title="top_button">
+                <span class="material-symbols-outlined">
+                    expand_less
+                </span>
+            </a>
         </aside>
 
     </main>
+
+
     <!--footer 시작-->
     <footer id="contact" class="section_style">
-        <H2>CONTACT</H2>
-        <P>
-            Lorem ipsum dolor sit amet consectetur
-
-            adipisicing elit. In sint, officia
-
-            nesciunt possimus accusantium quo.
-
-            Laboriosam, nisi blanditiis qui quo illo
-
-            soluta quod deleniti similique non pariatur
-
-            in hic. Ullam.
+        <H2 class="title">CONTACT</H2>
+        <P class="description">
+            My Portfolio
         </P>
+        <ul class="contact_all">
+            <li class="icon_size">
+                <a class="contact_icon" href="#" target="_blank" title="My Portfolio">
+                    <span class="material-symbols-outlined" style="font-size: 1.2rem;">
+                        drafts
+                    </span>
+                    ____________@naver.com
+                </a>
+                <a class="contact_icon" href="#" target="_blank" title="My Portfolio">
+                    <span class="material-symbols-outlined" style="font-size: 1.2rem;">
+                        phone_iphone
+                    </span>
+                    010.xxxx.xxxx
+                </a>
+            </li>
+        </ul>
     </footer>
 </body>
 
