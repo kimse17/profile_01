@@ -54,6 +54,7 @@ a {
 
 .header_menu>li:hover {
     border-bottom: 1px solid rgb(115, 139, 255);
+    
 }
 
 .header_menu_item.active {
@@ -65,3 +66,4 @@ a {
 .hamburger {
     display: none;
 }
+
