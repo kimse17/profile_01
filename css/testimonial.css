@@ -1,0 +1,26 @@
+.testimonial_all {
+    margin: 3rem;
+}
+
+.testimonial_each {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.testimonial_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.testimonial_bubble{
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 14px 16px 32px -6px rgba(166,166,166,0.75);
+}
+
+.testimonial_bubble_name{color: rgb(115, 139, 255);}
+/*.testimonial_each:nth-child(even) .testimonial_img{order:1;   
+order:0 이면 왼쪽, order:1 이면 오른쪽}*/
