@@ -19,9 +19,9 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(221, 221, 221, 0.5);
     
-    padding: 1rem;
+    
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,6 +47,8 @@ a {
 
 .header_logo_title {
     font-size: 1.8rem;
+
+
 }
 
 .header_menu {
@@ -67,6 +69,6 @@ padding: 8px 16px;
 }
 
 .header_menu_item:hover{
-    border: 1px solid black;
-    border-radius: 70%;
+    border: 1px solid rgb(136, 126, 112);
+    border-radius: 80%;
 }
