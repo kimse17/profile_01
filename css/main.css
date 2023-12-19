@@ -22,13 +22,16 @@
 
 
 
-
-
+.home_main{position: relative;
+    display: flex;
+ }
+    
 .font {
+
     position: absolute;
     display: block;
     left: 1em;
-    top: 24rem;
+    top:18rem;
     font-size: 15pt;
     line-height: 3rem;
 
@@ -39,12 +42,14 @@
     font-size: 50px;
     text-align: center;
     padding-top: 3.5rem;
+    position: absolute;
+ 
 }
 
 .hr_line {
     border-left: thin solid black;
-    height: 15%;
+    height: 10rem;
     left: 2%;
-
-    position: absolute;
+top: 8rem;
+    position:absolute;
 }
