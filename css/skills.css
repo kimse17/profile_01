@@ -12,12 +12,13 @@
 
 #about {
     background-color: rgb(161, 177, 255);
-    width: 100%;
+    
 }
 
 
 .skills_content {
     display: grid;
+    gap: 2rem;
     grid-template-columns: 6fr 4fr;
     grid-template-rows: 1fr 1fr;
     margin: 2rem 3rem;
@@ -66,7 +67,7 @@
 
 .skills_title {
     display: flex;
-    width: 100%;
+  
     justify-content: center;
     align-items: center;
     margin: 1rem;
@@ -76,7 +77,7 @@
 
 .bar_text_02 {
     display: flex;
-    width: 100%;
+    
     justify-content: center;
     align-items: center;
     margin: 1rem;
