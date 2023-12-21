@@ -9,8 +9,10 @@
     justify-content: space-between;
     gap: 1rem;
     margin: 2.5rem 0;
+    opacity: 0%;
 }
-
+.about_content.about-01{opacity: 100%;
+transition: all 1500ms;}
 .max-container {
     margin: 0 auto;
    
