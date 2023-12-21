@@ -1,8 +1,71 @@
-.section_style {
-    text-align: center;
-    padding: 4rem;
+.section_Style {
+    padding: 1rem;
+    font-size: 20pt
+}
+.max-container {
+    margin: 0 auto;
+
+}
+.about_box_01 {
+    display: flex;
+    width: 150px;
+    padding-top: 2rem;
 }
 
+/*.hr_line01 {
+    border-bottom: 1px solid rgb(131, 124, 114);
+    height: 9rem;
+    left: 20px;
+    top: 8rem;
+    position: absolute;
+}*/
 
-
+.about_content{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2.5rem 0;
    
+}
+.about_box{
+    width: 30%;
+    background: #ece8dd;
+    padding: 2rem 1rem;
+   text-align: center;
+    border-radius: 1rem;
+    cursor: default;
+    box-shadow: 10px 13px 20px -4px rgba(120, 120, 120,)
+}
+.about_title {
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+   
+}
+
+.about_text {
+    color: rgb(0, 0, 0);
+  
+}
+.about_icon { 
+    font-size: 4rem;
+    margin: 1rem 0;
+    color: rgb(131, 124, 114);
+    transition: all 300ms;
+}
+.about_icon {
+    cursor: pointer;
+}
+
+/*마우스 올릴 때 커서 모양 손가락*/
+
+.about_box:hover .about_icon {
+    transform: rotate(-15deg) scale(1);
+}
+#about {
+    background-color: #fdf8eb;
+    
+}
+
