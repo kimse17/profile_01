@@ -1,0 +1,56 @@
+#home {
+    background-color: #ece8dd;
+    color: black;
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
+    height: 500px;
+
+
+}
+
+.home_avatar {
+    position: absolute;
+
+
+    top: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+.home_main {
+    position: relative;
+    display: flex;
+}
+
+.font {
+
+    position: absolute;
+    display: block;
+    left: 1em;
+    top: 17rem;
+    font-size: 15pt;
+    line-height: 3rem;
+
+}
+
+.line_01 {
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    padding-top:2.5rem;
+    position: absolute;
+
+}
+
+.hr_line {
+    border-left: thin solid rgb(131, 124, 114);
+    height: 9rem;
+    left: 20px;
+    top: 8rem;
+    position: absolute;
+}
