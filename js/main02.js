@@ -30,3 +30,4 @@ document.addEventListener('scroll', () => {
     }
 
 })
+const font_color = document.querySelector ('section_style')
