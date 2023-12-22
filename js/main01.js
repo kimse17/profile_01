@@ -10,9 +10,8 @@ const headerHeight = headerReact.height;
 document.addEventListener("scroll", Function())
 {
     console.log(window.scrollY);
-    if (window.scrollY> headerHeight) 
-    {header.classList.add("header-dark");}
-    else {header.classList.remove("header-dark")}
+    if (window.scrollY > headerHeight) { header.classList.add("header-dark"); }
+    else { header.classList.remove("header-dark") }
 }
 
 
@@ -21,18 +20,17 @@ document.addEventListener("scroll", Function())
 
 {
     console.log(window.scrollY);
-    if (window.scrollY> headerHeight) 
-    {header.classList.add("header-dark");}
-    else {header.classList.remove("header-dark")}
+    if (window.scrollY > headerHeight) { header.classList.add("header-dark"); }
+    else { header.classList.remove("header-dark") }
 }
 
 const aa = document.querySelector(".about_content")//".about_content"--변화시키고 싶은 부분 불러오기//
-document.addEventListener('scroll', function() {
+document.addEventListener('scroll', function () {
 
-    
+
     console.log(window.scrollY);
 
-    if(window.scrollY > 350) {
+    if (window.scrollY > 350) {
 
         aa.classList.add('about-01');//"aa"--변수값설정, 이후 common에 가서 opacity 설정//
 
