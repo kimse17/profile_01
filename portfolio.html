@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="web/app software engineer">
     <meta name="author" content="MY PORTFOLIO">
-    <title>SEONG EUN &#39;s Portfolio</title>
+    <title>SEONG EUN &#39;S PORTFOLIO</title>
     <link rel="stylesheet" href="./css/portfolio.menu.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/portfolio.main.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/portfolio.common.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="./css/portfolio.contact.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -41,7 +40,7 @@
 <body>
     <header class="header">
         <div class="header_logo">
-            <h2 class="header_logo_title" style="background: linear-gradient(to top, #fffec0 40%, transparent 20%) ">
+            <h2 class="header_logo_title" style="background: linear-gradient(to top, #fffec0 60%, transparent 20%) ">
                 PORTFOLIO
             </h2>
         </div>
@@ -65,7 +64,7 @@
     <main>
         <section id="home" class="main_Style">
             <div class="home_main">
-                <h1 class="line_01" style="background: linear-gradient(to top, #b7bda6 40%, transparent 20%)">
+                <h1 class="line_01" style="background: linear-gradient(to top, #b7bda6 60%, transparent 20%)">
                     WEB ENGINEER
                 </h1> <br>
 
@@ -76,52 +75,52 @@
                     <h2 class="font01">김성은</h2>
                 </div>
             </div>
-            <div class="home_avatar01"><img class="home_avatar" src="#"></div>
+            <!--   <div class="home_avatar01"><img class="home_avatar" src="#"></div>-->
         </section>
 
         <section id="about" class="section_Style  max-container">
-            <h2 class="about_box_01" style="background: linear-gradient(to top, #b7bda6 40%, transparent 20%)">ABOUT ME
+            <h2 class="about_box_01" style="background: linear-gradient(to top, #b7bda6 60%, transparent 20%)">ABOUT ME
             </h2>
             <div class="hr_line01"> </div>
             <p>자기 소개 글</p>
 
             <ul class="about_content">
                 <li class="about_box">
-                    <span class="material-symbols-outlined about_icon" style="font-size: 4REM;"">
+                    <span class="material-symbols-outlined about_icon" style="font-size: 4REM;">
                         code
-                        </span>
-                    <p class="about_title">FONT-END</p>
+                    </span>
+                    <p class=" about_title">FONT-END</p>
                     <p class="about_text">HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT</p>
                 </li>
                 <li class="about_box">
 
                     <span class="material-symbols-outlined about_icon" style="font-size: 4REM;">
                         desktop_windows
-                        </span>
+                    </span>
                     <p class=" about_title">DESIGN</p>
-                        <p class="about_text">PHOTOSHOP, ILLUST, FIGMA</p>
+                    <p class="about_text">PHOTOSHOP, ILLUST, FIGMA</p>
                 </li>
                 <li class="about_box">
                     <span class="material-symbols-outlined about_icon" style="font-size: 4REM;"">
                         license
                         </span>
-                    <p class="about_title">LICENSE</p>
-                    <p class="about_text">MARKETING, LANGUAGE, ETC</p>
+                    <p class=" about_title">LICENSE</p>
+                        <p class="about_text">MARKETING, LANGUAGE, ETC</p>
                 </li>
             </ul>
         </section>
 
 
         <section id="skills" class="section_Style">
-            <h2 class="about_box_01" style="background: linear-gradient(to top, #b7bda6 40%, transparent 20%)">SKILLS
+            <h2 class="about_box_01" style="background: linear-gradient(to top, #b7bda6 60%, transparent 20%)">SKILLS
             </h2>
             <div class="skills_box_all">
                 <section class="skills_box_01">
                     <h3>CODING SKILLS</h3>
                     <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JAVASCRIPT</li>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
                         <li>REACT</li>
                     </ul>
                 </section>
@@ -153,34 +152,115 @@
 
 
         <section id="my works" class="section_Style">
-            <h2 class="about_box_01" style="background: linear-gradient(to top, #b7bda6 40%, transparent 20%)">MY WORKS
+            <h2 class="about_box_01" style="background: linear-gradient(to top, #b7bda6 60%, transparent 20%)">
+                MY WORKS
             </h2>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+
+            <ul class="works_all">
+                <li> <img src="./images/img_01.jpg"></li>
+                <li> <img src="./images/img_02.jpg"></li>
+                <li> <img src="./images/img_03.jpg"></li>
+                <li> <img src="./images/img_04.jpg"></li>
             </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </section>
 
+
+        <section id="work" class="section_style">
+            <H2 class="title">MY WORK</H2>
+            <P class="description">Projects</P>
+            <ul class="category">
+                <li> <button class="category_button "> ALL<span class="work_count">8</span></button>
+                </li>
+                <li> <button class="category_button ">FRONT-END<span class="work_count">3</span></button></li>
+                <li> <button class="category_button">DESIGN<span class="work_count">3</span></button></li>
+                <li> <button class="category_button">MOBILE<span class="work_count">2</span></button></li>
+            </ul>
+
+            <ul class="project_all">
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_01.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #01</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_02.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #02</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_03.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #03</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_04.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #04</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_01.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #06</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_02.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #06</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_03.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #07</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="Project">
+                    <a href="#" target="_blank">
+                        <img class="work_img" src="images/img_04.jpg">
+                        <div class="Project_text">
+                            <h3 class="Project_title">Project #08</h3>
+                            <p>MY WORK</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+
         <aside>
             <a class="arrow_up" href="#home" title="top_button">
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined" style="color: #191a17;">
                     expand_less
                 </span>
             </a>
@@ -189,7 +269,14 @@
 
 
     <footer id="contact" class="section_Style">
-        <h2 class="about_box_01" style="background: linear-gradient(to top, #b7bda6 40%, transparent 20%)">CONTACT</h2>
+        <h2 class="about_box_02">
+            <div>
+                <div style="background: linear-gradient(to top, #b7bda6 100%, transparent 30%) ">
+                    CONTACT
+                </div>
+                <div class="underline" style="border-bottom: 2px solid #7f8376; "></div>
+            </div>
+        </h2>
         <ul class="contact_all">
             <li class="icon_size">
                 <a class="contact_icon" href="#" target="_blank" title="My Portfolio">
