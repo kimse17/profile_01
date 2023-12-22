@@ -1,5 +1,52 @@
 #contact {
     background-color: #ece8dd;
     color: black;
+
 }
-.contacnt_all{}
+
+.contact_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.icon_size {}
+
+.contact_icon {
+    margin: 40px;
+
+}
+
+.contact_icon:hover {
+    transition: all 300ms;
+    color: #7f8376
+}
+
+.about_box_02 {
+    display: flex;
+    left: 150px;
+    width: 150px;
+    padding-top: 3rem;
+    padding-left: 55rem;
+
+
+}
+
+.underline {
+    padding-bottom: 0.5rem;
+}
+
+
+.arrow_up {
+    position: fixed;
+    bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    right: 2rem;
+    padding-top: 0.8rem;
+    background-color: #7f8376;
+}
