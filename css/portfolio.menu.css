@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
 
@@ -19,8 +19,8 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    
-    
+    background: #ece8dd;
+
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -64,11 +64,12 @@ a {
     width: 80%;
 }
 
-.header_menu_item{display: block;
-padding: 8px 16px;
+.header_menu_item {
+    display: block;
+    padding: 8px 16px;
 }
 
-.header_menu_item:hover{
+.header_menu_item:hover {
     border: 1px solid rgb(131, 124, 114);
     border-radius: 80%;
 }
