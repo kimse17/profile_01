@@ -70,3 +70,26 @@
     
 }
 
+#works{
+    background-color:#fdf8eb;
+    color: black
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem;
+    gap: 1rem;
+}
+.category_button {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+    border: 2px solid  #b7bda6;
+    background-color:#ece8dd;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.project_all{}
