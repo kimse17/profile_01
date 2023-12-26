@@ -1,10 +1,10 @@
 const home = document.querySelector('.home_container');
 const homeHeight = home.offsetHeight;
-const top_button =document.querySelector(".arrow_up")
+const top_button = document.querySelector(".arrow_up")
 
 document.addEventListener('scroll', () => {
 
-    if(window.scrollY > homeHeight / 2) {
+    if (window.scrollY > homeHeight / 2) {
 
         top_button.style.opacity = 1;
 
@@ -16,10 +16,10 @@ document.addEventListener('scroll', () => {
 
 })
 
-const testimonal = document.querySelector('.testimonial_all')
+/*const testimonal = document.querySelector('.testimonial_all')
 document.addEventListener('scroll', () => {
 
-    if(window.scrollY > 600) {
+    if (window.scrollY > 600) {
 
         testimonal.style.color = red;
 
@@ -29,5 +29,16 @@ document.addEventListener('scroll', () => {
 
     }
 
+})*/
+const font_color = document.querySelector('section_style')
+
+const navToggle = document.querySelector('.hamburger');
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
 })
-const font_color = document.querySelector ('section_style')
+
+const navMenu = document.querySelector('.header_menu');
+navMenu.addEventListener('click', () => {
+    navMenu.classList.remove('open');
+})
+
