@@ -65,6 +65,7 @@ a {
 
 .hamburger {
     display: none;
+    cursor: pointer;
 }
 
 
