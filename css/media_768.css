@@ -5,10 +5,8 @@
         width: 100%;
         flex-flow: column nowrap;
         align-items: start;
-
         display: flex;
         justify-content: center;
-
     }
 
     .header_nav {
@@ -18,7 +16,6 @@
     .header_menu {
         display: none;
         flex-flow: column nowrap;
-        width: 100%;
         text-align: center;
         padding: 1rem 4rem;
         gap: 1rem;
