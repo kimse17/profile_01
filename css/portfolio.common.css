@@ -84,16 +84,16 @@
     display: flex;
     justify-content: center;
     margin: 2rem;
-    gap: 1.5rem;
+    gap: 2.5rem;
 
 }
 
 .category_button {
     position: relative;
     color: rgb(0, 0, 0);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding: 0.5rem 3rem;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #b7bda6;
     background-color: #ece8dd;
     cursor: pointer;
@@ -110,23 +110,26 @@
 
 .work_count {
     position: absolute;
-    top: -8px;
-    right: 2px;
-    width: 16PX;
-    height: 16PX;
-    line-height: 14px;
-    font-size: 1.6rem;
+    top: -15px;
+    right: 15px;
+    width: 25PX;
+    height: 25PX;
+    line-height: 25px;
+    font-size: 1.4rem;
     border-radius: 100%;
-    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.493);
     opacity: 0;
     transition: all 100ms;
 
 }
-.work_img{width: 150px;
-height: 150px;
+
+.work_img {
+    width: 200px;
+    height: 200px;
 }
+
 .category_button:hover {
-    background-color: rgb(115, 139, 255);
+    background-color: #b7bda6;
 }
 
 .category_button:hover .work_count {
@@ -135,4 +138,9 @@ height: 150px;
     color: rgb(0, 0, 0);
 }
 
-.project_all{display: flex;}
+.project_all {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
