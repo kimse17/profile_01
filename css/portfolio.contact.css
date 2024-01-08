@@ -8,15 +8,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
-    padding: 1rem;
-    margin: 2rem;
+ 
 }
 
 
 
 .contact_icon {
-    margin: 40px;
+    margin: 30px;
 
 }
 
@@ -33,13 +31,11 @@
     padding-top: 3rem;
     padding-left: 55rem;
 
-
 }
 
 .underline {
     padding-bottom: 0.5rem;
 }
-
 
 .arrow_up {
     position: fixed;
